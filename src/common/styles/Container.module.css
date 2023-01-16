@@ -1,0 +1,12 @@
+.container {
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    /*!*justify-content: center; *! media*/
+    align-items: center;
+    flex-wrap: wrap;
+
+}
