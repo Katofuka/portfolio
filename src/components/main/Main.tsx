@@ -9,7 +9,7 @@ export const Main = () => {
                 <div className={styles.text}>
                     <span>Hello!</span>
                     <h1>I`m
-                        <span>Poliakova Anne</span>
+                        <span>Anne Poliakova</span>
                     </h1>
                     <span>A Front-End Developer</span>
 
