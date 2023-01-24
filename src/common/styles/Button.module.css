@@ -1,0 +1,15 @@
+.button{
+    height: 30px;
+    width: 100px;
+    background-color: rgba(253, 133, 0, 0.58);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: rgba(190, 0, 253, 0.58);
+}
+.button:active{
+    background-color: transparent;
+    border: 2px solid rgba(253, 133, 0, 0.58);
+}

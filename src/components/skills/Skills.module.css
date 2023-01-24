@@ -1,6 +1,8 @@
 .skillsBlock {
     height: 100vh;
     background-color: rgba(199, 15, 227, 0.7);
+    display: flex;
+    align-items: center;
 }
 
 .skillsContainer {
@@ -10,7 +12,6 @@
 }
 
 .skills {
-    background-color: #fff;
     width: 100%;
     display: flex;
     justify-content: space-around;
