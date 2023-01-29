@@ -1,4 +1,4 @@
-.footerBlock{
+.footerBlock {
     height: 25vh;
     background-color: rgb(181, 210, 195);
     display: flex;
@@ -18,4 +18,23 @@
 
 .footerBrandBlock {
     display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+
+@media screen and (max-width: 800px) {
+    .footerBlock{
+        align-items: baseline;
+    }
+    .footerContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footerBrandBlock {
+        width: 100%;
+        justify-content: space-around;
+    }
+
 }

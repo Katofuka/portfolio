@@ -21,7 +21,7 @@ export const Contacts = () => {
 
                 <button onClick={() => console.log('click')}
                         className={`${stylesButton.button } ${styles.openProjectButton}`}>
-                    Отправить
+                    Send
                 </button>
             </div>
         </div>
