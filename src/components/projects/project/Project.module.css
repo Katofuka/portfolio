@@ -11,9 +11,10 @@
 .openProject {
     width: 100%;
     line-height: 150px;
-    background: no-repeat center/80% url("http://pu.pu");
+    background-image: url("https://aptlearn.io/wp-content/uploads/2022/09/project-management-business-process-planning-workflow-organization-colleagues-working-together-teamwork_335657-2469.jpeg");
+    background-size: cover ;
+    background-position: center;
     background-color: #a8dafa;
-
 }
 .openProjectButton{
     display: inline-block;

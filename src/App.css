@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Livvic');
 
+* {
+  box-sizing: border-box;
+}
+
 .App {
   margin: 0 auto;
   font-family: 'Livvic', sans-serif;
