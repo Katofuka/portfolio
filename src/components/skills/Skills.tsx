@@ -5,7 +5,7 @@ import {Skill} from "./skill/Skill";
 
 export const Skills = () => {
     return (
-        <div className={styles.skillsBlock}>
+        <div id={"Skills"} className={`${stylesContainer.block} ${styles.skillsBlock}`}>
             <div className={`${stylesContainer.container} ${styles.skillsContainer}`}>
 
                 <div className={styles.text}>

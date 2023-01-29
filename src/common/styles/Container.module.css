@@ -1,12 +1,29 @@
 .container {
     margin: 0 auto;
     border: 1px solid black;
-    /*height: 100%;*/
     width: 80%;
     display: flex;
     justify-content: space-between;
-    /*!*justify-content: center; *! media*/
     align-items: center;
     flex-wrap: wrap;
 
 }
+
+.block {
+    height: 100vh;
+}
+@media screen and (max-width: 1200px) {
+    .block {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+
+}
+

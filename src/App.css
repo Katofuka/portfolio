@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic');
+
 .App {
-  margin: 0;
+  margin: 0 auto;
+  font-family: 'Livvic', sans-serif;
+  font-size: 18px;
 }
 

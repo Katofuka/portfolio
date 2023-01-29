@@ -1,5 +1,5 @@
 .project {
-    max-width: 250px;
+    width: 350px;
     background-color: #11a2ff;
     border: 1px solid #285b80;
     display: flex;
@@ -27,4 +27,11 @@
 
 .description {
     padding-bottom: 20px ;
+}
+
+
+@media screen and (max-width: 500px) {
+    .project {
+        width: 100%;
+    }
 }

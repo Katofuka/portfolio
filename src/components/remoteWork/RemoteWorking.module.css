@@ -1,0 +1,22 @@
+.remoteBlock{
+    height: 30vh;
+    background-color: rgba(252, 146, 175, 0.56);
+    display: flex;
+    align-items: center;
+}
+
+.remoteContainer {
+    min-height: 150px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.remoteH2 {
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .remoteContainer {
+        justify-content: space-around;
+    }
+}

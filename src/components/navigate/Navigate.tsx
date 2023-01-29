@@ -5,10 +5,10 @@ export const Navigate = () => {
     return (
 
         <div className={styles.navigate}>
-            <a href="">Главная</a>
-            <a href="">Скилы</a>
-            <a href="">Работы</a>
-            <a href="">Контакты</a>
+            <a href="#Main">Главная</a>
+            <a href="#Skills">Скилы</a>
+            <a href="#Projects">Работы</a>
+            <a href="#Contacts">Контакты</a>
 
         </div>
 

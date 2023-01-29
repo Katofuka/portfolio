@@ -1,5 +1,4 @@
 .contactsBlock {
-    height: 100vh;
     background-color: rgb(244, 255, 138);
     display: flex;
     align-items: center;
@@ -8,8 +7,7 @@
 .contactsContainer {
     flex-direction: column;
     justify-content: space-between;
-
-    height: 60%;
+    min-height: 60%;
 }
 
 .contacts {
@@ -25,7 +23,6 @@
     flex-direction: column;
     width: 60%;
     height: 300px;
-    border: 1px solid #000000;
     justify-content: space-around;
 }
 
@@ -35,4 +32,11 @@
 
 .contactInput{
     height: 10%;
+}
+@media screen and (max-width: 800px) {
+    .formInput{
+        width: 100%;
+    }
+
+
 }

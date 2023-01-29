@@ -5,7 +5,7 @@ import stylesButton from "../../common/styles/Button.module.css";
 
 export const Contacts = () => {
     return (
-        <div className={styles.contactsBlock}>
+        <div id={"Contacts"} className={`${stylesContainer.block} ${styles.contactsBlock}`}>
             <div className={`${stylesContainer.container} ${styles.contactsContainer}`}>
 
                 <div className={styles.header}>
@@ -21,7 +21,7 @@ export const Contacts = () => {
 
                 <button onClick={() => console.log('click')}
                         className={`${stylesButton.button } ${styles.openProjectButton}`}>
-                    Кнопка
+                    Отправить
                 </button>
             </div>
         </div>

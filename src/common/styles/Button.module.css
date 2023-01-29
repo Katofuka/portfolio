@@ -13,3 +13,13 @@
     background-color: transparent;
     border: 2px solid rgba(253, 133, 0, 0.58);
 }
+
+@media screen and (max-width: 800px) {
+    .button{
+        width: 160px;
+        height: 50px;
+        font-size: large;
+    }
+
+
+}

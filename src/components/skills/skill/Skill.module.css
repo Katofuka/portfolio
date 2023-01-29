@@ -1,6 +1,6 @@
 .skill {
-    min-width: 300px;
-    min-height: 200px;
+    width: 300px;
+    height: 200px;
     background-color: #11a2ff;
     border: 1px solid #285b80;
     display: flex;

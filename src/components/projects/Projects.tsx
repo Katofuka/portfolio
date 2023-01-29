@@ -5,7 +5,7 @@ import {Project} from "./project/Project";
 
 export const Projects = () => {
     return (
-        <div className={styles.projectsBlock}>
+        <div id={"Projects"} className={`${stylesContainer.block} ${styles.projectsBlock}` }>
             <div className={`${stylesContainer.container} ${styles.projectsContainer}`}>
 
                 <div className={styles.text}>
@@ -13,9 +13,9 @@ export const Projects = () => {
                 </div>
 
                 <div className={styles.projects}>
-                    <Project name={"Todo"} description={"Some text about Todo"}/>
-                    <Project name={"Social"} description={"Some text about Social"}/>
-                    <Project name={"Counter"} description={"Some text about Counter"}/>
+                    <Project name={"Смотреть"} description={"Some text about Todo"}/>
+                    <Project name={"Смотреть"} description={"Some text about Social"}/>
+                    <Project name={"Смотреть"} description={"Some text about Counter"}/>
                 </div>
             </div>
         </div>

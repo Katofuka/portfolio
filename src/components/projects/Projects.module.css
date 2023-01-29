@@ -1,5 +1,4 @@
 .projectsBlock {
-    height: 100vh;
     background-color: rgb(0, 223, 229);
     display: flex;
     align-items: center;
@@ -18,3 +17,4 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
