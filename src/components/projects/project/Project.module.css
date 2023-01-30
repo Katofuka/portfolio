@@ -31,8 +31,3 @@
 }
 
 
-@media screen and (max-width: 500px) {
-    .project {
-        width: 100%;
-    }
-}
