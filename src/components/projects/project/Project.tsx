@@ -14,7 +14,7 @@ export const Project = (props: SkillPropsType) => {
             <div className={styles.openProject}>
                 <button onClick={() => console.log('click')}
                         className={stylesButton.button + " " + styles.openProjectButton}>
-                    {props.name}
+                    {'Look'}
                 </button>
             </div>
 
