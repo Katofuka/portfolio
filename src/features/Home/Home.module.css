@@ -1,0 +1,67 @@
+.home {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home .content {
+    padding-left: 100px;
+}
+
+.home .content .name {
+    font-size: 72px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.home .content .line {
+    display: inline-block;
+    width: 70px;
+    height: 5px;
+    margin-bottom: 30px;
+    background-color: #333;
+}
+
+.tmButton{
+    width: 100%;
+    height: auto;
+    clear:both;
+    float: left;
+}
+
+.tmButton a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: #333;
+    padding: 13px 38px;
+    border: 2px solid #333;
+    font-family: 'Poppins';
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+.tmButton a:hover{
+    color: #333;
+    background-color: #fff;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .home .content {
+        padding-left: 50px;
+    }
+    .home .content .name {
+        font-size: 55px;
+        margin-bottom: 25px;
+    }
+    .home .content .line {
+        width: 60px;
+        height: 4px;
+        margin-bottom: 25px;
+    }
+    
+}

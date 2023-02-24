@@ -1,0 +1,14 @@
+.portfolioBlock {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    background-color: #f6fbff;
+}
+
+@media screen and (max-width: 1600px) {
+    .portfolioBlock {
+        width: 65%;
+    }
+}

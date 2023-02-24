@@ -24,6 +24,7 @@
     background-size: contain;
 }
 
+
 @media screen and (max-width: 800px) {
     .mainContainer {
         align-items: start ;
