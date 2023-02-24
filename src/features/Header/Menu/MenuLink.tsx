@@ -1,6 +1,6 @@
 import style from "../Header.module.css";
 import {NavLink} from "react-router-dom";
-import React, {memo} from "react";
+import React from "react";
 
 type MenuLinkPropsType = {
     linkHead: string

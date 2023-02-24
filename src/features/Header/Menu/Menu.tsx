@@ -1,5 +1,5 @@
 import style from "./Menu.module.css";
-import React, {memo, useCallback, useRef, useState} from "react";
+import React, {useCallback, useRef, useState} from "react";
 import {MenuLink} from "./MenuLink";
 
 

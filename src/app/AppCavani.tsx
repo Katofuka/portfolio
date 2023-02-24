@@ -3,9 +3,6 @@ import style from './AppCavani.module.css';
 import {Photo} from "../features/Photo/Photo";
 import {Portfolio} from "../features/Portfolio/Portfolio";
 import {Header} from "../features/Header/Header";
-import {Route, Routes} from "react-router-dom";
-import {Main} from '../components/main/Main';
-import {Home} from "../features/Home/Home";
 
 
 export const AppCavani = () => {

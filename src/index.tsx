@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import {AppCavani} from "./app/AppCavani";
 import {BrowserRouter} from "react-router-dom";
 
