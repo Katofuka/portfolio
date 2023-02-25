@@ -46,7 +46,7 @@
 
 .tmButton a:hover{
     color: #333;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 
@@ -62,6 +62,9 @@
         width: 60px;
         height: 4px;
         margin-bottom: 25px;
+    }
+    .tmButton a{
+        padding: 13px 32px;
     }
     
 }

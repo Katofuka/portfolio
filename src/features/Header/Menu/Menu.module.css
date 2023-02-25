@@ -23,6 +23,9 @@
     transition: all .3s ease;
 }
 
+.menu ul li a:hover {
+    color: #fff;
+}
 
 .menu .links .indicator {
     position: absolute;
@@ -32,9 +35,8 @@
     bottom: 15px;
     background-color: #333;
     z-index: -1;
-    transition: all .3s ease-in-out;
+    transition: all .3s ease;
 }
-
 
 @media screen and (max-width: 1600px) {
     .menu ul li a {

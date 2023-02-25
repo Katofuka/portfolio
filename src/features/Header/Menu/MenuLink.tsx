@@ -1,18 +1,44 @@
 import style from "../Header.module.css";
 import {NavLink} from "react-router-dom";
-import React from "react";
+import React, {useState} from "react";
 
 type MenuLinkPropsType = {
     linkHead: string
-    moveIndicator: (e: React.MouseEvent<HTMLLIElement>) => void
+    moveIndicator: (e: EventTarget & HTMLLIElement) => void
+    setActiveLink: (e: EventTarget & HTMLLIElement) => void
 }
 
 export const MenuLink: React.FC<MenuLinkPropsType> = (props) => {
-    console.log('rerender Link Meny')
+    const {
+        linkHead,
+        moveIndicator,
+        setActiveLink
+    } = props
+
+    const [activeItem, setActiveItem] = useState<string>('')
+
+    const activeStyle = {color: "#fff"}
+
+    const handleMouseOver = (e: React.MouseEvent<HTMLLIElement>) => {
+        moveIndicator(e.currentTarget)
+        if(activeItem === linkHead) {
+            setActiveLink(e.currentTarget)
+            console.log('handleMouseOver', e.currentTarget)
+        }
+    }
+
     return (
-        <li className={style.linksHoverHome}
-            onMouseOver={props.moveIndicator}>
-            <NavLink to={`/${props.linkHead}`}>{props.linkHead}</NavLink>
+        <li className={style.linksHoverHome} onMouseOver={handleMouseOver}>
+            <NavLink
+                to={`/${linkHead}`}
+                style={({isActive}) => {
+                    if (isActive)
+                        setActiveItem(linkHead)
+                    return (isActive ? activeStyle : undefined)
+                }}
+            >
+                {linkHead}
+            </NavLink>
         </li>
     )
 }
